@@ -1,0 +1,33 @@
+{
+  "name": "hardhat-all-sch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "hardhat deploy --network ganache",
+    "test": "hardhat test --grep Shipping --network ganache",
+    "coverage": "hardhat coverage",
+    "compile": "hardhat compile"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@chainlink/contracts": "^1.2.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.10",
+    "hardhat-deploy": "^0.12.4",
+    "hardhat-deploy-ethers": "^0.4.2",
+    "hardhat-gas-reporter": "^1.0.10"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.19",
+    "solc": "^0.8.24"
+  }
+}
