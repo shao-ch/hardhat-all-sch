@@ -20,3 +20,6 @@ module.exports = async ({deployments}) => {
 
     console.log("SchERC20 deployed success...")
 }
+
+
+ module.exports.tags=["schERC20"];

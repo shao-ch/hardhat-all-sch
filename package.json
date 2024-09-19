@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "hardhat deploy --network ganache",
-    "test": "hardhat test --grep Shipping --network ganache",
+    "test": "hardhat test --grep SchERC20 --network ganache",
     "coverage": "hardhat coverage",
     "compile": "hardhat compile"
   },
